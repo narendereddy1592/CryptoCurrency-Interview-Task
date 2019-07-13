@@ -1,0 +1,53 @@
+  .crypto_Currency {
+    margin: 100px 100px 100px 300px;
+  }
+  .crypto_currency_table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .crypto_currency_table td , .crypto_currency_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .crypto_currency_table td{
+    text-align: center;
+  }
+  .crypto_currency_table tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+  .crypto_currency_table tbody tr:hover {
+    background-color: #ddd;
+  }
+  .currency_head_span{
+    float: left;
+  }
+  .dropdown {
+  position: relative;
+  right: 17px;
+  float: right;
+  margin: 0px 0px 40px 0px;
+  width: 60px;
+ }
+  .drop select {
+  width: 80px;
+  background: lightgray;
+  border-radius: 6px;
+ }
+ .currency_span {
+  display: flex;
+    position: relative;
+    left: 60px;
+    margin: 18px 0px 0px 0px;
+ }
+ .currency_span p {
+  position: relative;
+  top: -16px;
+  margin-left: 10px;
+ }
+ i.fa.fa-sort-up {
+  font-size: 22px;
+}
+i.fa.fa-sort-down {
+  font-size: 22px;
+}
+  
